@@ -1,0 +1,15 @@
+.day {
+    width: 15%;
+    border-right: 1px solid #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.day:last-child {
+    border: none;
+}
+
+.day:first-child {
+    border-left: 1px solid #d3d3d3;
+}

@@ -1,0 +1,23 @@
+.redLineArea {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 8px;
+    z-index: 2;
+    margin-top: 0px;
+}
+
+.line {
+    position: relative;
+    background-color: #ff0000;
+    height: 2px;
+    width: 100%;
+}
+.point {
+    position: relative;
+    border-radius: 100%;
+    background-color: #ff0000;
+    height: 10px;
+    width: 10px;
+}

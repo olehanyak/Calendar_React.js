@@ -1,0 +1,60 @@
+.blockDay {
+    color: #888;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.dayName {
+    height: 40px;
+    z-index: 2;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.dayName:hover {
+    color: #03ceff;
+}
+
+.dayOfWeek {
+    color: #111;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dayOfWeek:hover {
+    background-color: #f1f1f1;
+    color: #888;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.currentDay {
+    background-color: #03ceff;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.currentDay:hover {
+    background-color: #02b5e2;
+}

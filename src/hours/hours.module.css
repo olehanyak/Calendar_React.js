@@ -1,0 +1,7 @@
+.timeHours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60px;
+    font-size: 12px;
+}

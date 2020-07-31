@@ -1,0 +1,18 @@
+.calendarNet {
+    display: flex;
+}
+
+.calendarTime {
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    width: 55px;
+    margin-top: 175px;
+}
+
+.calendarWeek {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 175px;
+}

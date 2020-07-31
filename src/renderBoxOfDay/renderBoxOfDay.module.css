@@ -1,0 +1,14 @@
+.boxOfDay {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 60px;
+    border-top: 1px solid #d3d3d3;
+}
+.boxOfDay:first-child {
+    border: none;
+}
+
+.boxOfDay:hover {
+    background-color: #f1f1f1;
+}

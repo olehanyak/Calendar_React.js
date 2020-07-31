@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif, "Courier New", Courier, monospace;
+}
+
+.fa-plus {
+    padding-right: 17px;
+}
